@@ -9,7 +9,7 @@ public class task3 {
             double Y = 0;
             double F = 0;
             Scanner sc = new Scanner(System.in);
-
+            System.out.println("Введите x");
             int x = sc.nextInt();
             if (x <= -3) {
                 Y = pow(x, 3) + 1;
